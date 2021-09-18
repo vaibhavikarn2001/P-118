@@ -1,0 +1,54 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+}
+.container{
+    margin:5%;
+    background-color:#ff7086;
+    border-radius: 50px;
+}
+ol{
+    background:#fc7e9b;
+}
+canvas{
+    animation-name:example;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    animation-iteration-count: infinite;
+animation-duration: 2s;
+border-radius:20px;
+ box-shadow:5px 5px 5px 5px grey;
+  width:300px;
+  height: 300px;
+  margin-top: 650px;
+ 
+}
+@keyframes example{
+    from{
+        border:5px solid #ff7086 ;
+
+    }
+    to{
+        border:5px solid white;
+       
+    }
+}
+.copy_right_footer{
+    background-color:#fc7e9b;
+    width:100%;
+    text-align: center;
+    height:50px;
+    color:white;
+    letter-spacing: 3px;
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 25px;
+    position: fixed;
+    bottom:0;
+}
+a{
+    color:white;
+}
+a:hover{
+    color:blue;
+}
